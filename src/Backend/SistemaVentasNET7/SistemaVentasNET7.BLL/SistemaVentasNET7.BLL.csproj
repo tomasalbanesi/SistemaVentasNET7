@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaVentasNET7.DAL\SistemaVentasNET7.DAL.csproj" />
+    <ProjectReference Include="..\SistemaVentasNET7.DTO\SistemaVentasNET7.DTO.csproj" />
+    <ProjectReference Include="..\SistemaVentasNET7.Model\SistemaVentasNET7.Model.csproj" />
+    <ProjectReference Include="..\SistemaVentasNET7.Utility\SistemaVentasNET7.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
